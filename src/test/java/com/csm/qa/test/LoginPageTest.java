@@ -51,4 +51,17 @@ public class LoginPageTest extends CSMBase{
 		
 	System.out.println("Test4");
 	}
+	@Test(priority=5)
+	public void DemoTest5() throws InterruptedException
+	{
+		
+	System.out.println("Test5");
+	}
+	@Test(priority=6)
+	public void DemoTest6() throws InterruptedException
+	{
+		
+	System.out.println("Test6");
+	}
+	
 }

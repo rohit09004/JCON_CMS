@@ -15,6 +15,8 @@
                <include name="DemoTest2" />
                <include name="DemoTest3" />
                <include name="DemoTest4" />
+               <include name="DemoTest5" />
+               <include name="DemoTest6" />
             </methods>
 
 </class>
