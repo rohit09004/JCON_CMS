@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CMS Test Suite">
+
+<test name="CMS App Test Cases">
+
+<classes>
+
+<class name="com.csm.qa.test.LoginPageTest">
+
+             <methods>
+               <include name="LoginWithValidCredentials" />
+               <include name="DemoTest2" />
+               <include name="DemoTest3" />
+               <include name="DemoTest4" />
+            </methods>
+
+</class>
+
+</classes>
+
+ 
+
+</test> <!-- Test -->
+
+</suite> <!-- Suite -->
